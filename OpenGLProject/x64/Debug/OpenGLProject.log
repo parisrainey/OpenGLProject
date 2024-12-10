@@ -1,68 +1,31 @@
 ﻿  IndexBuffer.cpp
   OpenGLProject.cpp
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\OpenGLProject.cpp(1,1): warning C4005: 'GLEW_STATIC': macro redefinition
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\OpenGLProject.cpp(1,1):
-  'GLEW_STATIC' previously declared on the command line
-  
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\OpenGLProject.cpp(1,1): warning C4005: 'GLEW_STATIC': macro redefinition
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\OpenGLProject.cpp(1,1): message : 'GLEW_STATIC' previously declared on the command line
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(42,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(41,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : see declaration of 'VertexBufferLayout::Push'
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(49,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(48,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : see declaration of 'VertexBufferLayout::Push'
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(56,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(55,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : see declaration of 'VertexBufferLayout::Push'
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(37,17): error C2607: static assertion failed
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : This diagnostic occurred in the compiler generated function 'void VertexBufferLayout::Push(unsigned int)'
+  Shader.cpp
   VertexArray.cpp
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(42,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
-  (compiling source file 'Source/OpenGLProject.cpp')
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(41,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
-  (compiling source file 'Source/OpenGLProject.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  see declaration of 'VertexBufferLayout::Push'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(49,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
-  (compiling source file 'Source/OpenGLProject.cpp')
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(48,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
-  (compiling source file 'Source/OpenGLProject.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  see declaration of 'VertexBufferLayout::Push'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(56,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
-  (compiling source file 'Source/OpenGLProject.cpp')
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(55,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
-  (compiling source file 'Source/OpenGLProject.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  see declaration of 'VertexBufferLayout::Push'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(37,17): error C2607: static assertion failed
-  (compiling source file 'Source/OpenGLProject.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  This diagnostic occurred in the compiler generated function 'void VertexBufferLayout::Push(unsigned int)'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(42,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
-  (compiling source file 'Source/VertexArray.cpp')
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(41,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
-  (compiling source file 'Source/VertexArray.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  see declaration of 'VertexBufferLayout::Push'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(49,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
-  (compiling source file 'Source/VertexArray.cpp')
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(48,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
-  (compiling source file 'Source/VertexArray.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  see declaration of 'VertexBufferLayout::Push'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(56,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
-  (compiling source file 'Source/VertexArray.cpp')
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(55,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
-  (compiling source file 'Source/VertexArray.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  see declaration of 'VertexBufferLayout::Push'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(37,17): error C2607: static assertion failed
-  (compiling source file 'Source/VertexArray.cpp')
-  C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7):
-  This diagnostic occurred in the compiler generated function 'void VertexBufferLayout::Push(unsigned int)'
-  
-C:\Users\paris\OneDrive\Documents\Github\OpenGLProject\OpenGLProject\Source\VertexArray.cpp(27,3): warning C4312: 'type cast': conversion from 'unsigned int' to 'const void *' of greater size
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(42,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(41,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : see declaration of 'VertexBufferLayout::Push'
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(49,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(48,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : see declaration of 'VertexBufferLayout::Push'
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(56,1): error C2768: 'VertexBufferLayout::Push': illegal use of explicit template arguments
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(55,7): error C2535: 'void VertexBufferLayout::Push(unsigned int)': member function already defined or declared
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : see declaration of 'VertexBufferLayout::Push'
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(37,17): error C2607: static assertion failed
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexBufferLayout.h(35,7): message : This diagnostic occurred in the compiler generated function 'void VertexBufferLayout::Push(unsigned int)'
+C:\Users\s238003\Documents\GitHub\OpenGLProject\OpenGLProject\Source\VertexArray.cpp(27,3): warning C4312: 'type cast': conversion from 'unsigned int' to 'const void *' of greater size
   VertexBuffer.cpp
   Generating Code...
