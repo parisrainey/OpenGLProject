@@ -1,21 +1,22 @@
-#shader vertex
-#version 330 core
+#pragma once
+#include <string>
 
-layout(location = 0) in vec4 position;
-
-void main()
+class Shader
 {
-	gl_Position = position;
-}
+private:
+	unsigned int GetUniformLocation(const std::sting& name);
+	bool CompileShader();
 
-#shader fragment
-#version 330 core
+	unsigned int m_RendererID;
+	std::string m_FilePath;
+	// Caching for Uniforms
+public:
+	Shader(const std::string& filepath);
+	~Shader();
 
-layout(location = 0) out vec4 color;
+	void Bind() const;
+	void Unbind();
 
-uniform vec4 u_Color;
-
-void main()
-{
-	color = u_Color;
-}
+	// Set Uniforms
+	void SetUniform4F(const std::string& name, float f0, float f1, float f2, float f3);
+};
