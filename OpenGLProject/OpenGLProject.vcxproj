@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="Source\IndexBuffer.cpp" />
     <ClCompile Include="Source\OpenGLProject.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
     <ClCompile Include="Source\Shader.cpp" />
     <ClCompile Include="Source\VertexArray.cpp" />
     <ClCompile Include="Source\VertexBuffer.cpp" />
